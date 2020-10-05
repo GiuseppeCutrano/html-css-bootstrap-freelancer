@@ -1,0 +1,31 @@
+
+
+nav .container {
+  background-color: #364d63;
+  color: white;
+  line-height: 60px;
+
+}
+
+nav ul li a{
+  color: white;
+  text-decoration: none;
+}
+
+
+
+.box_hero .container{
+  background-color: #0ee8c4;
+}
+
+
+
+.h-60{
+  height: 60px;
+}
+
+.h-400{
+  height: 400px;
+
+
+}
