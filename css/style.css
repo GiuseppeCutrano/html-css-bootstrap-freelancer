@@ -1,8 +1,10 @@
 
 
-
-nav .container {
+nav{
   background-color: #364d63;
+}
+nav .container {
+
   color: white;
   line-height: 60px;
 
@@ -14,7 +16,7 @@ nav ul li a{
 }
 
 
-.box_hero .container{
+.box_hero{
   background-color: #0ee8c4;
 }
 
@@ -41,11 +43,21 @@ nav ul li a{
   text-align: center;
 }
 
-.box_hero img{
-  width: 100px;
+.h-1 {
+  height: 1px;
+  background-color: white;
 }
 
+.box_hero img{
+  width: 200px;
+}
 
+.bolder{
+  font-weight: 800;
+}
+.rule{
+  border: 2px solid white;
+}
 /* posizionamento centrato verticale e orizzontale */
 .item-center{
   position:absolute;
@@ -55,6 +67,9 @@ nav ul li a{
   transform: translate(-50%, -50%);
   margin:0;
 }
+.divider-custom-line{
+  border: 2px solid white;
+}
 
 #portfolio .box-foto{
   padding: 15px;
@@ -62,4 +77,19 @@ nav ul li a{
 #portfolio .foto_portfolio{
   width: 100%;
   border-radius: 10px;
+}
+
+#contact-me .form {
+  border: 1px solid black;
+}
+
+.form-group{
+  border-top: 0;
+}
+footer>.top_footer{
+  background-color: #2C3E50;
+}
+footer>.bottom_footer{
+  background-color: #000000;
+  height: 50px;
 }
